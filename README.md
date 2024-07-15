@@ -39,12 +39,12 @@ Gourmet Gatherings is a comprehensive web application designed to streamline cat
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/gourmet-gatherings.git
+   git clone https://github.com/devpriyochakravarty/catering_management_system/
    ```
 
 2. Navigate to the project directory:
    ```
-   cd gourmet-gatherings
+   cd catering_management
    ```
 
 3. Open `index.html` in a modern web browser.
