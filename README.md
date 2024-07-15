@@ -109,6 +109,4 @@ Distributed under the MIT License. See `LICENSE` file for more information.
 
  12. Contact
 
-Your Name - your.email@example.com
-
 Project Link: [https://github.com/your-username/gourmet-gatherings](https://github.com/devpriyochakravarty/gourmet-gatherings)
