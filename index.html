@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gourmet Gatherings - Catering Reservation and Ordering System">
+    <title>Gourmet Gatherings - Catering Reservation System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="overlay"></div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home" aria-label="Home">Home</a></li>
+                <li><a href="#products" aria-label="Menu">Menu</a></li>
+                <li><a href="#cart" aria-label="Cart">Cart</a></li>
+                <li><a href="#login" aria-label="Login">Login</a></li>
+                <li><a href="#register" aria-label="Register">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Welcome to Gourmet Gatherings</h1>
+            <p>Elevate your events with our exquisite catering service.</p>
+        </section>
+
+        <section id="products" class="hidden">
+            <h2>Our Menu</h2>
+            <div id="product-list"></div>
+        </section>
+
+        <section id="cart" class="hidden">
+            <h2>Your Cart</h2>
+            <div id="cart-items"></div>
+            <button id="place-order" aria-label="Place Order">Place Order</button>
+        </section>
+
+        <section id="login" class="hidden">
+            <h2>Login</h2>
+            <form id="login-form">
+                <label for="login-email">Email:</label>
+                <input type="email" id="login-email" placeholder="Email" required aria-required="true">
+                <label for="login-password">Password:</label>
+                <input type="password" id="login-password" placeholder="Password" required aria-required="true">
+                <button type="submit" aria-label="Login">Login</button>
+            </form>
+        </section>
+
+        <section id="register" class="hidden">
+            <h2>Register</h2>
+            <form id="register-form">
+                <label for="register-name">Full Name:</label>
+                <input type="text" id="register-name" placeholder="Full Name" required aria-required="true">
+                <label for="register-email">Email:</label>
+                <input type="email" id="register-email" placeholder="Email" required aria-required="true">
+                <label for="register-password">Password:</label>
+                <input type="password" id="register-password" placeholder="Password" required aria-required="true">
+                <button type="submit" aria-label="Register">Register</button>
+            </form>
+        </section>
+
+        <section id="admin" class="hidden">
+            <h2>Admin Dashboard</h2>
+            <form id="add-product-form">
+                <label for="product-name">Product Name:</label>
+                <input type="text" id="product-name" placeholder="Product Name" required aria-required="true">
+                <label for="product-price">Price:</label>
+                <input type="number" id="product-price" placeholder="Price" required aria-required="true">
+                <label for="product-description">Description:</label>
+                <textarea id="product-description" placeholder="Description" required aria-required="true"></textarea>
+                <button type="submit" aria-label="Add Product">Add Product</button>
+            </form>
+            <div id="order-list"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Gourmet Gatherings - Catering Reservation and Ordering System</p>
+    </footer>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
